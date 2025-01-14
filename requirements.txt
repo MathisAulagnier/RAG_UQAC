@@ -1,0 +1,12 @@
+antiorm==1.2.1
+beautifulsoup4==4.12.3
+bs4==0.0.2
+certifi==2024.12.14
+charset-normalizer==3.4.1
+db==0.1.1
+db-sqlite3==0.0.1
+idna==3.10
+PyPDF2==3.0.1
+requests==2.32.3
+soupsieve==2.6
+urllib3==2.3.0
