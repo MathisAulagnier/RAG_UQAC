@@ -1,0 +1,4 @@
+# https://www.uqac.ca/mgestion/lexique/actif-informationnel/
+
+# Actif informationnel
+Signifie notamment, mais non inclusivement, tout système d’information, matériel informatique et de télécommunications, logiciels, progiciels, banques de données et informations (textuelle, sonore, symbolique ou visuelle) placées dans un matériel informatique ou sur un média informatique et/ou électronique, ainsi que le système de courrier électronique. Un équipement de recherche, de laboratoire ou d’enseignement spécialisé ou ultraspécialisé peut comporter des composantes qui font partie des actifs informationnels, notamment lorsqu’il est relié de façon électronique à des actifs informationnels. Les informations sur des documents papiers et les documents imprimés générés par les technologies de l’information sont également des actifs informationnels.

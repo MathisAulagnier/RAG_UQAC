@@ -1,0 +1,70 @@
+# https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/
+
+# Procédure relative à la confidentialité du dossier étudiant
+Adoption  
+---  
+Instance | Date | Décision  
+[Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) | 27 avril 1982 | CEX-1009  
+Modification  
+---  
+Instance | Date | Décision | Commentaires  
+[Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) | 25 mars 1997 | CAD-6081  
+[Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) | 12 juin 2007 | CAD-8619  
+Révision | Aux trois (3) ans  
+---|---  
+Responsable | Le ou la registraire  
+Parties prenantes  
+### 1. Dispositions générales
+#### 1.1 Préambule
+Établir et préciser le cadre général régissant la confidentialité du [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>).
+#### 1.2 Objectifs
+  1. Préciser le principe de confidentialité du [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) énoncé par les régimes des études de l’Université du Québec.
+  2. Assurer l’étudiante ou l’étudiant que l’information qu’il transmet à l’UQAC sera traitée confidentiellement et que l’information détenue par l’UQAC le concernant lui soit accessible, et ce, conformément entre autres à la Loi sur l’accès aux documents des organismes publics et sur la protection des renseignements personnels.
+  3. Permettre à une étudiante ou un étudiant de faire corriger toute fausse information contenue dans son dossier.
+
+
+#### 1.3 Références
+  * [Règlement général 1 « Organisation et dispositions générales en matière d’enseignement et de recherche »](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/reseau.uquebec.ca/fr/system/files/documents/Secretariat_general/reglements_generaux/regle_1.pdf>) de l’Université du Québec.
+  * [Règlement général 2 « Les études de premier cycle »](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/reseau.uquebec.ca/system/files/documents/reglement-general-2-uq-202306.pdf>) de l’Université du Québec.
+  * [Règlement général 3 « Les études de cycles supérieurs »](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/reseau.uquebec.ca/system/files/documents/reglement-general-3-uq-202306.pdf>) de l’Université du Québec.
+  * Politique relative aux études de premier, deuxième et troisième cycles.
+  * [Loi sur l’accès aux documents des organismes publics et sur la protection des renseignements personnels](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.legisquebec.gouv.qc.ca/fr/document/lc/A-2.1>).
+
+
+#### 1.4 Définitions
+**«[Enseignant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/enseignant/>) » :** désigne un [professeur](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/professeur/>) ou professeure ou un chargé ou chargée de cours engagé à ce titre par l’Université.
+**«[Dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) » :** le Bureau du registraire tient à jour un dossier pour chaque étudiant ou étudiante. Ce dossier, quel qu’en soit le support (papier, informatique, microfilm, numérisation, etc.) se compose entre autres des documents suivants :
+**« Documents académiques » :** documents liés directement au cheminement universitaire de l’étudiante ou étudiant depuis sa demande d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/admission/>). À titre d’exemple :
+  * la demande d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/admission/>);
+  * le relevé de notes du diplôme d’études collégiales et/ou de tout autre programme d’études universitaires;
+  * la décision du comité de sélection ou d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/admission/>);
+  * le cheminement informatisé de l’étudiante ou étudiant;
+  * le dossier universitaire dont notamment le relevé de notes;
+  * le formulaire d’inscription ou de modification d’inscription à chacun des trimestres.
+
+
+**« Documents particuliers » :** documents non liés directement au cheminement universitaire de l’étudiante ou étudiant afin de compléter le dossier de l’étudiante ou étudiante dans certaines situations particulières.
+#### 1.5 Responsable de l’application
+Le ou la registraire est responsable de son application.
+### 2. Rôles et modalités
+#### 2.1 Rôle du Bureau du registraire
+**2.1.1** Le [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) est la propriété de l’UQAC. Seul le Bureau du registraire est autorisé à constituer, modifier, mettre à jour et à conserver le [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>). Celui-ci en est le dépositaire officiel et il est le seul à en certifier l’authenticité.
+**2.1.2** Seul le ou la registraire est habilité à diffuser un renseignement ou un document officiel consigné dans le dossier d’un étudiant. Il ne peut le faire qu’avec l’autorisation écrite de l’étudiante ou l’étudiant ou en vertu de l’application d’une loi ou d’une ordonnance d’un tribunal qui autorise ce dernier à cet effet.
+#### 2.2 Modalités de consultation du dossier étudiant
+Les personnes qui consultent le [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) sont liées par son caractère confidentiel et ne peuvent modifier ou reproduire en tout ou en partie ledit dossier sans l’autorisation expresse du registraire. L’étudiante ou l’étudiant qui désire consulter son [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) peut le faire en se présentant au Bureau du registraire. La consultation s’effectue sur place et en présence d’un employé du Bureau du registraire.
+L’étudiante ou l’étudiant a accès à toutes informations contenues dans son dossier, sauf pour celles qui ont été confiées à l’UQAC à titre confidentiel ou dont la confidentialité est protégée par la loi. En cas de refus d’accorder la permission de consulter son dossier ou une pièce contenue dans son dossier, l’étudiante ou l’étudiant peut s’adresser à la personne responsable désignée en vertu de la Loi sur l’accès aux documents des organismes publics et sur la protection des renseignements personnels.
+Un organisme extérieur légalement autorisé peut consulter le dossier d’une étudiante ou d’un étudiant en se présentant au Bureau du registraire et en y établissant auprès du ou de la registraire la légalité de son autorisation.
+À l’exception de celles prévues dans la présente procédure, aucune autre personne ne peut consulter le dossier d’une étudiante ou d’un étudiant ou obtenir des renseignements, exemple un éventuel employeur, sauf s’il détient une autorisation signée par ledit étudiant ou ladite étudiante.
+#### 2.3 Accès au dossier étudiant par le personnel
+Sous réserve d’en respecter le caractère confidentiel et dans l’exercice de leur fonction, le [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) est accessible pour consultation sur place, sans autorisation spéciale, au vice-recteur ou à la vice-rectrice aux études, à la formation et à la réussite, à la personne responsable de l’application de la Loi sur l’accès aux documents des organismes publics et sur la protection des renseignements personnels, au doyen ou à la doyenne des études, à la direction de module, d’unité d’enseignement ou de programme dans lequel est inscrit l’étudiante ou l’étudiant, de même qu’au personnel du Bureau du registraire et au personnel des unités administratives si nécessaire.
+#### 2.4 Accès au dossier étudiant informatisé
+L’accès au [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) informatisé est régi par les règles de confidentialité stipulées dans la présente procédure. Dans un système d’accès direct aux données, où la consultation est possible à partir de différents postes de travail, le ou la registraire s’assurera que les personnes autorisées puissent seulement consulter les données pertinentes à l’exercice de leur fonction. Le ou la registraire, en collaboration avec le Service des technologies de l’information, est responsable, dans le cadre de la Politique relative à l’utilisation des équipements et des services informatiques et de télécommunication, de la mise en place des mécanismes nécessaires pour assurer la confidentialité du fichier informatique du [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>).
+#### 2.5 Durée de conservation
+Le [dossier étudiant](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/dossier-etudiant/>) devient inactif deux (2) ans après la dernière inscription. Ce délai écoulé, il est transféré au secteur des [archives](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/archives/>) qui le conserve conformément à la règle du [calendrier de conservation](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/sg-docs/site-sg/manuel-gestion/calendrier-conservation.pdf>) de l’UQAC.
+#### 2.6 Règles particulières
+Considérant le caractère confidentiel du dossier universitaire de l’étudiante ou de l’étudiant, les enseignantes et enseignants ne doivent d’aucune façon faire connaître publiquement toute information nominative relative à leurs étudiantes ou étudiants, notamment les codes permanents ainsi que les notes obtenues dans le cadre d’un cours à moins de le faire de manière à ce qu’il soit impossible d’identifier personnellement une étudiante ou un étudiant.
+La direction de module, d’unité d’enseignement ou de programmes peut, s’il le juge nécessaire, constituer un dossier aux fins de gestion académique. Ce dossier permet d’assurer le suivi pédagogique de l’étudiante ou de l’étudiant et ne doit pas être reproduit. Il comprend tous les documents liés directement au cheminement universitaire de l’étudiante ou de l’étudiant, de même que tous autres documents complémentaires. Ce dossier est sous la responsabilité de la direction de module, d’unité d’enseignement ou de programmes et toutes les règles définies dans la présente procédure s’appliquent. Ce dossier est conservé un (1) an après la diplomation de l’étudiant ou deux (2) ans après la dernière inscription. Par la suite, il est détruit. Tous les documents sont déchiquetés.
+#### 3. Mise à jour
+La présente procédure doit être mise à jour au besoin et minimalement, tous les trois (3) ans. La mise à jour est adoptée par le [Comité exécutif](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/comite-executif/>).
+#### 4. Dispositions finales
+La présente procédure entre en vigueur à compter de son adoption par le [Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-la-confidentialite-du-dossier-etudiant/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) de l’Université.

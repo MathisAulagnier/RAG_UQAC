@@ -1,0 +1,72 @@
+# https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/
+
+# Politique en matière de maîtrise des compétences informationnelles dans les programmes de cycles supérieurs
+**Adoption**  
+---  
+**Instance** | **Date** | **Décision**  
+[Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) | 30 octobre 2012 | CAD-10040  
+**Modification**  
+---  
+**Instance** | **Date** | **Décision** | **Commentaires**  
+[Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) | 16 avril 2013 | CAD-10181  
+**Révision** | Aux cinq (5) ans  
+---|---  
+**Responsable** | Le vice-recteur ou la vice-rectrice aux études, à la formation et à la réussite  
+**Parties prenantes** | Bibliothèque Paul-Émile-Boulet et service des [Archives](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/archives/>)  
+### 1. Dispositions générales
+Soucieuse de former des chercheures et chercheurs ainsi que des professionnelles et professionnels de haut niveau, l’[Université du Québec à Chicoutimi](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/universite-du-quebec-a-chicoutimi/>) (UQAC) accentue les efforts en matière de développement des compétences informationnelles aux études de cycles supérieurs. Pour atteindre cet objectif, toute nouvelle étudiante et tout nouveau étudiant inscrit à un programme de grade de cycles supérieurs sous la seule responsabilité de gestion de l’UQAC doit faire la preuve qu’il maîtrise les compétences informationnelles.
+#### 1.1 Préambule
+Établir les objectifs, le champ d’application, les principes et les dispositions générales en matière de maîtrise des compétences informationnelles aux cycles supérieurs.
+Déterminer les modalités et les règles qui régissent la maîtrise des compétences informationnelles aux cycles supérieurs.
+#### 1.2 Objectifs
+S’assurer que les étudiantes et étudiants inscrits dans les programmes de grade de cycles supérieurs acquièrent et maîtrisent des compétences informationnelles nécessaires à la poursuite de leurs études.
+Permettre à tous les programmes de cycles supérieurs d’introduire dans leurs conditions d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/admission/>) les compétences informationnelles.
+Favoriser la consolidation et l’amélioration des compétences informationnelles dès le début de la formation.
+Identifier les mesures permettant à l’étudiante ou à l’étudiant d’acquérir les compétences informationnelles nécessaires à la poursuite de ses études.
+Préciser le rôle et les responsabilités de chacun des intervenants.
+#### 1.3 Références
+[Règlement général 3 « Les études de cycles supérieurs »](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/reseau.uquebec.ca/system/files/documents/reglement-general-3-uq-202306.pdf>) de l’Université du Québec.
+Politique relative aux études de premier, deuxième et troisième cycles.
+[Procédure relative à l’admission à un programme d’études de cycles supérieurs.](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/procedure-relative-a-ladmission-a-un-programme-detudes-de-cycles-superieurs/>)
+Procédure relative à l’approbation des modifications de programmes d’études de cycles supérieurs.
+#### 1.4 Responsable de l’application
+Le vice-recteur ou la vice-rectrice aux études, à la formation et à la réussite est responsable de son application.
+#### 1.5 Définitions
+**« Décanat »** : Décanat des études
+**« Doyen** **»** : doyen ou doyenne des études ou son mandataire.
+**« Programme conjoint** **»** : programme dont la gestion est confiée à plus d’un établissement d’enseignement de niveau universitaire et dont les modalités de gestion sont définies dans un protocole d’entente. Ce mode de gestion inclut l’offre des programmes en association ou en collaboration de même que les programmes réseau dont la gestion est confiée à plusieurs établissements de l’Université du Québec.
+**« Programme en délocalisation** **»** : programme offert hors Québec dont les modalités de la délocalisation sont définies dans un protocole d’entente.
+**« Programme en extension** **»** : programme provenant d’un autre établissement d’enseignement de niveau universitaire québécois et offert à l’UQAC selon des modalités de gestion définies dans un protocole d’entente. L’établissement d’où provient le programme en conserve la responsabilité et recommande la délivrance du diplôme.
+### 2. Rôles et modalités
+#### 2.1 Champs d’application
+La Politique sur les compétences informationnelles s’adresse, de manière spécifique, à tous les étudiants et étudiantes nouvellement inscrits à un programme de grade de cycles supérieurs sous la seule responsabilité de gestion de l’UQAC, à l’exception des programmes en délocalisation et ceux que l’UQAC offre en extension. Ceci dit, les responsables des autres types de programmes de cycles supérieurs peuvent demander au doyen ou à la doyenne d’y soumettre leurs étudiants.
+#### 2.2 Principes
+La réussite des études de cycles supérieurs est, en partie, tributaire de la maîtrise des compétences informationnelles. Ainsi, comme préalable à la formation de cycles supérieurs, maîtriser les compétences informationnelles signifie reconnaître l’existence d’un besoin en information et y répondre en trouvant, évaluant et utilisant efficacement les informations par la combinaison des savoirs, des savoir-faire et des savoir-être.
+#### 2.3 Exigence relative à la maîtrise des compétences informationnelles
+Tout étudiant ou étudiante nouvellement inscrit à un programme de cycles supérieurs visé par la présente politique doit faire la preuve qu’il possède les compétences informationnelles minimales à la réalisation de son programme d’études.
+La preuve de la maîtrise des compétences informationnelles est attestée par l’une ou l’autre des conditions suivantes :
+  * l’atteinte d’un résultat minimum de 75 % au test initial prévu à l’activité [CICS900](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/programmes.uqac.ca/cics900r>) _–Compétences informationnelles cycles supérieurs._ Dans ce cas, la note « S » est attribuée et la mention «  _a satisfait aux compétences informationnelles_ » est inscrite au relevé de notes;
+
+
+  * l’obtention de la note « S » après avoir suivi l’ensemble de la formation dès le premier [trimestre](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/trimestre/>) d’inscription d’une étudiante ou d’un étudiant à son programme. Dans ce cas, la mention «  _a satisfait aux compétences informationnelles_ » est inscrite au relevé de notes.
+
+
+#### 2.4 Exigence non satisfaite
+L’étudiante ou l’étudiant qui ne peut suivre entièrement la formation lors de son premier [trimestre](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/trimestre/>) d’inscription dans son programme devra s’y inscrire à nouveau au [trimestre](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/trimestre/>) suivant.
+L’étudiante ou l’étudiant qui n’aura pas satisfait aux exigences de la présente politique à l’intérieur des deux premiers trimestres où il y a inscription dans son programme, ne pourra poursuivre sa formation. En conséquence, seule l’inscription à l’activité CICS900 _–Compétences informationnelles cycles supérieurs_ pourra figurer à l’horaire de l’étudiant au [trimestre](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/trimestre/>) subséquent. Dans ce cas, il est à noter que l’étudiante ou l’étudiant doit demander une autorisation d’absence malgré l’inscription de cette activité à son horaire puisque cette dernière n’est pas contributive au programme.
+#### 2.5 Modalités relatives à l’activité CICS900-Compétences informationnelles cycles supérieurs
+La Bibliothèque Paul-Émile-Boulet est responsable de déterminer l’horaire de la formation et de le remettre au Décanat et de demander l’activité CICS900– _Compétences informationnelles cycles supérieurs_ chaque [trimestre](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/trimestre/>).
+Lors de sa première inscription dans son programme, l’étudiante ou l’étudiant doit obligatoirement s’inscrire à l’activité CICS900– _Compétences informationnelles cycles supérieurs_.
+La formation sur les compétences informationnelles est offerte par la Bibliothèque Paul-Émile-Boulet. Elle comprend le test initial, visant à évaluer les compétences informationnelles des étudiantes et des étudiants, et cinq (5) ateliers de trois (3) heures incluant une évaluation finale permettant d’apprécier les apprentissages faits suite à ces ateliers.
+Les cinq (5) ateliers doivent être suivis à l’intérieur d’un même [trimestre](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/trimestre/>) et dans l’ordre prévu puisque chaque atelier est préalable au subséquent.
+La Bibliothèque est responsable de saisir les résultats.
+L’obtention de la note « S » à l’activité CICS900– _Compétences informationnelles cycles supérieurs_ génère la mention «  _a satisfait aux compétences informationnelles_ » sur le relevé de notes de l’étudiant.
+#### 2.6 Modalités relatives à l’inclusion des compétences informationnelles dans les programmes de cycles supérieurs
+Tout programme de grade de cycles supérieurs, sous la seule responsabilité de gestion de l’UQAC sauf en ce qui concerne les exceptions mentionnées à l’article 2.1 de la présente Politique, doit introduire la maîtrise des compétences informationnelles dans les conditions d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/admission/>) au programme. Néanmoins, un programme peut demander d’être soustrait de cette obligation en faisant parvenir une requête au doyen ou à la doyenne. Ce dernier ou cette dernière jugera de la pertinence des arguments énoncés et rendra une décision.
+Les autres programmes de grade de cycles supérieurs, soient ceux en extension ou conjoint, doivent consulter les protocoles d’entente et les universités partenaires afin de déterminer la possibilité d’intégrer cette nouvelle condition d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/admission/>) au programme offert à l’UQAC et, le cas échéant, les modalités à suivre. Le résultat de cette consultation doit être transmis au Décanat de même que les résolutions prises, s’il y a lieu.
+Le Décanat doit informer le Bureau du registraire des modifications faites aux conditions d’[admission](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/admission/>) des programmes.
+Conformément à la _Procédure relative à l’approbation des modifications de programmes d’études de cycles supérieurs_ applicable, le Décanat doit inclure ces modifications dans son rapport synthèse présenté annuellement la Commission des études, de la recherche et de la création.
+### 3. Mise à jour
+La présente politique doit être mise à jour au besoin et minimalement, tous les cinq (5) ans. La mise à jour est adoptée par le [Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>).
+### 4. Dispositions finales
+La présente politique entre en vigueur à compter de son adoption par le [Conseil d’administration](https://www.uqac.ca/mgestion/chapitre-3/reglement-sur-les-programmes-detudes/politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs/<https:/www.uqac.ca/mgestion/lexique/conseil-dadministration/>) de l’Université.
