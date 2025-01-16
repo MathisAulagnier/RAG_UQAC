@@ -1,56 +1,66 @@
+from langchain.text_splitter import MarkdownTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
-from langchain_text_splitters import MarkdownHeaderTextSplitter
 
-DEFAULT_DATA_PATH = "scrapping/output_UQAC_Website"
+def read_markdown_file(file_path):
+    """Lit un fichier markdown et retourne son contenu"""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
 
+def split_markdown_into_chunks(markdown_text, chunk_size=500, chunk_overlap=25):
+    """
+    Découpe le texte markdown en chunks avec overlap
+    
+    Args:
+        markdown_text (str): Le texte markdown à découper
+        chunk_size (int): La taille maximale de chaque chunk
+        chunk_overlap (int): Le nombre de caractères qui se chevauchent entre les chunks
+    
+    Returns:
+        list: Liste des chunks
+    """
+    # Création du splitter spécifique pour Markdown
+    markdown_splitter = MarkdownTextSplitter(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap
+    )
+    
+    # Alternative avec RecursiveCharacterTextSplitter
+    # markdown_splitter = RecursiveCharacterTextSplitter(
+    #     separators=["\n\n", "\n", " ", ""],
+    #     chunk_size=chunk_size,
+    #     chunk_overlap=chunk_overlap,
+    #     length_function=len
+    # )
 
+    # Découpage du texte en chunks
+    chunks = markdown_splitter.split_text(markdown_text)
+    
+    return chunks
 
-# All markdown files are stored in the scrapping/output_UQAC_Website directory
-documents = [doc for doc in os.listdir(DEFAULT_DATA_PATH) if doc.endswith('.md')]
+def main():
+    # Chemin vers votre fichier markdown
+    file_path = "scrapping/output_UQAC_Website/annexe-4-procedure-pour-le-partage-de-linformation-aux-fonds-de-recherche-du-quebec.md"
+    
+    # Lecture du fichier
+    markdown_text = read_markdown_file(file_path)
+    
+    # Découpage en chunks
+    chunks = split_markdown_into_chunks(
+        markdown_text,
+        chunk_size=1000, 
+        chunk_overlap=100  
+    )
+    
+    # Affichage des résultats
+    print(f"Nombre total de chunks : {len(chunks)}")
+    
+    # Affichage des premiers chunks pour vérification
+    for i, chunk in enumerate(chunks[:5]):  # Affiche les 3 premiers chunks
+        print(f"\nChunk {i+1}:")
+        print("-" * 50)
+        print(chunk)
+        print("-" * 50)
 
-print(f"Found {len(documents)} markdown files in {DEFAULT_DATA_PATH}.")
-# print("Example of a document:")
-# print(open(os.path.join(DEFAULT_DATA_PATH, documents[0])).read()[:200])
-
-doc1 = documents[0]
-
-with open(os.path.join(DEFAULT_DATA_PATH, doc1), 'r') as file:
-    doc1 = file.read()
-
-# print(doc1)
-print('\n\n')
-
-markdown_document = doc1
-
-headers_to_split_on = [
-    ("#", "Header 1"),
-    ("##", "Header 2"),
-]
-
-# MD splits
-markdown_splitter = MarkdownHeaderTextSplitter(
-    headers_to_split_on=headers_to_split_on, strip_headers=False
-)
-md_header_splits = markdown_splitter.split_text(markdown_document)
-
-# Char-level splits
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-
-chunk_size = 500
-chunk_overlap = 50
-text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=chunk_size, chunk_overlap=chunk_overlap
-)
-
-# Split
-splits = text_splitter.split_documents(md_header_splits)
-splits
-
-
-print(len(splits))
-
-print(splits[1], '\nMMmmmmmmmmmmmmm\n')
-print(splits[2], '\nMMmmmmmmmmmmmmm\n')
-print(splits[3], '\nMMmmmmmmmmmmmmm\n')
-
-
+if __name__ == "__main__":
+    main()
