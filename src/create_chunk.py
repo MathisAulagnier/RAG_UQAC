@@ -1,5 +1,4 @@
 from langchain.text_splitter import MarkdownTextSplitter
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 
 def read_markdown_file(file_path):
@@ -25,23 +24,18 @@ def split_markdown_into_chunks(markdown_text, chunk_size=500, chunk_overlap=25):
         chunk_overlap=chunk_overlap
     )
     
-    # Alternative avec RecursiveCharacterTextSplitter
-    # markdown_splitter = RecursiveCharacterTextSplitter(
-    #     separators=["\n\n", "\n", " ", ""],
-    #     chunk_size=chunk_size,
-    #     chunk_overlap=chunk_overlap,
-    #     length_function=len
-    # )
 
     # Découpage du texte en chunks
     chunks = markdown_splitter.split_text(markdown_text)
     
     return chunks
 
-def main():
-    # Chemin vers votre fichier markdown
-    file_path = "scrapping/output_UQAC_Website/annexe-4-procedure-pour-le-partage-de-linformation-aux-fonds-de-recherche-du-quebec.md"
+def create_chunks_from_file(file_path):
+
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"Le fichier {file_path} est introuvable")
     
+
     # Lecture du fichier
     markdown_text = read_markdown_file(file_path)
     
@@ -61,6 +55,4 @@ def main():
         print("-" * 50)
         print(chunk)
         print("-" * 50)
-
-if __name__ == "__main__":
-    main()
+    return chunks
