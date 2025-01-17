@@ -1,0 +1,283 @@
+Traité avec succès: reglement-relatif-aux-ressources-informationnelles.md (21 chunks)
+Traité avec succès: politique-institutionnelle-relative-a-la-sante-et-la-securite-du-travail.md (23 chunks)
+Traité avec succès: procedure-relative-a-lanalyse-des-protocoles-par-le-comite-de-protection-des-animaux-de-luqac.md (22 chunks)
+Traité avec succès: procedure-relative-aux-affaires-juridiques.md (14 chunks)
+Traité avec succès: procedure-relative-au-traitement-des-plaintes-concernant-linconduite.md (24 chunks)
+Traité avec succès: procedure-relative-a-loctroi-dun-grade-sur-la-base-dun-cumul-de-programmes-de-1er-et-de-2e-cycles.md (27 chunks)
+Traité avec succès: procedure-en-matiere-dinformation-universitaire-aupres-des-clienteles-potentielles-detudiants.md (6 chunks)
+Traité avec succès: procedure-relative-a-la-nomination-ou-au-renouvellement-dune-personne-responsable-dune-unite-de-recherche-ou-de-recherche-creation.md (22 chunks)
+Traité avec succès: politique-de-perfectionnement-et-de-sabbatique-des-professeurs.md (24 chunks)
+Erreur lors du traitement de acquis.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-en-matiere-dembauche-du-personnel-cadre.md (7 chunks)
+Erreur lors du traitement de responsable-de-lapplication-des-regles-contractuelles-rarc.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de chapitre-1.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-la-nomination-et-au-renouvellement-de-mandat-du-doyen-des-affaires-departementales.md (19 chunks)
+Traité avec succès: procedure-relative-a-la-composition-dune-unite-pedagogique-et-aux-responsabilites-du-comite-et-de-la-direction-de-lunite-pedagogique.md (38 chunks)
+Traité avec succès: annexe-1-code-de-conduite-des-personnes-en-relation-pedagogique-ou-dautorite.md (5 chunks)
+Traité avec succès: politique-de-distinctions-honorifiques.md (28 chunks)
+Erreur lors du traitement de etudiant-regulier.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-au-fonctionnement-des-organismes-statutaires.md (41 chunks)
+Traité avec succès: politique-sur-les-organismes-statutaires-et-la-regie-interne.md (83 chunks)
+Erreur lors du traitement de actualites.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-lelaboration-et-a-lutilisation-du-plan-de-cours-des-activites-des-programmes-detudes-de-cycles-superieurs.md (13 chunks)
+Traité avec succès: bienvenue.md (3 chunks)
+Traité avec succès: contrat-en-matiere-de-technologie-de-linformation.md (2 chunks)
+Traité avec succès: directive-relative-a-lutilisation-des-cles.md (6 chunks)
+Traité avec succès: cibles.md (1 chunks)
+Traité avec succès: politique-en-matiere-de-perfectionnement-dun-membre-du-personnel-cadre-et-dinscription-au-programme-de-mobilite-des-cadres.md (10 chunks)
+Traité avec succès: procedure-relative-a-la-reconnaissance-de-limplication-des-etudiants-a-la-vie-institutionnelle.md (9 chunks)
+Traité avec succès: politique-relative-au-bureau-du-registraire.md (7 chunks)
+Traité avec succès: procedure-relative-au-plan-de-cours-a.md (37 chunks)
+Traité avec succès: politique-sur-lencadrement-du-sport-dexcellence.md (20 chunks)
+Erreur lors du traitement de chapitre-5.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de attestation-detudes.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-la-bibliotheque-paul-emile-boulet.md (5 chunks)
+Traité avec succès: politique-encadrant-lacces-aux-donnees-du-fichier-balsac-a-des-fins-de-recherche.md (46 chunks)
+Erreur lors du traitement de groupe-cours.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de comite-de-gouvernance.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: reglement-relatif-a-lapprovisionnement.md (18 chunks)
+Traité avec succès: procedure-en-matiere-de-perfectionnement-du-personnel-professionnel-technique-de-bureau-metiers-et-services.md (5 chunks)
+Erreur lors du traitement de plan-de-cours.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-au-teletravail.md (19 chunks)
+Erreur lors du traitement de chapitre-4.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-lorganisation-de-la-recherche-et-de-la-creation.md (78 chunks)
+Erreur lors du traitement de professeur-regulier.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de ressource-informationnelle.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-la-remise-a-la-modification-et-a-la-revision-dun-resultat.md (39 chunks)
+Traité avec succès: procedure-relative-aux-conditions-dobtention-dun-diplome.md (19 chunks)
+Traité avec succès: cadre-de-gestion-de-la-securite-de-linformation.md (36 chunks)
+Traité avec succès: programme-de-formation-courte.md (1 chunks)
+Traité avec succès: procedure-relative-a-la-reconnaissance-des-acquis-et-des-competences.md (37 chunks)
+Traité avec succès: politique-relative-au-programme-daide-aux-employes-et-employees-pae.md (12 chunks)
+Traité avec succès: procedure-relative-a-la-confidentialite-du-dossier-etudiant.md (21 chunks)
+Traité avec succès: politique-sur-les-infractions-relatives-aux-etudes-et-sanctions.md (71 chunks)
+Traité avec succès: politique-institutionnelle-en-matiere-de-sante-mentale-de-la-communaute-universitaire.md (62 chunks)
+Erreur lors du traitement de contrat-de-travaux-de-construction.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de contrat-de-services.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: mgestion.md (4 chunks)
+Traité avec succès: politique-relative-a-lutilisation-des-equipements-et-des-services-informatiques-et-de-telecommunications.md (24 chunks)
+Traité avec succès: politique-sur-la-lutte-contre-le-tabagisme-et-pour-un-environnement-sans-fumee-sur-les-campus-de-luqac.md (16 chunks)
+Traité avec succès: procedure-relative-a-lattribution-des-bourses-dexcellence-a-luqac.md (8 chunks)
+Traité avec succès: procedure-relative-a-la-nomination-et-au-renouvellement-de-mandat-du-doyen-de-la-recherche-et-de-la-creation.md (33 chunks)
+Traité avec succès: politique-institutionnelle-de-creation-et-douverture-de-postes-de-professeur.md (5 chunks)
+Traité avec succès: annexe-ii-declaration-dinterets-applicable-aux-membres-des-organismes-statutaires-de-luqac.md (6 chunks)
+Erreur lors du traitement de programme-contingente.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de calendrier-universitaire.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de activite-dintervention.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-en-matiere-de-publicite-institutionnelle.md (5 chunks)
+Traité avec succès: procedure-en-matiere-de-pret-et-de-location-de-locaux.md (6 chunks)
+Traité avec succès: procedure-relative-a-lelaboration-et-a-la-gestion-du-budget-dinvestissement.md (16 chunks)
+Traité avec succès: procedure-relative-a-la-circulation-et-au-stationnement-sur-le-campus-2.md (27 chunks)
+Traité avec succès: procedure-relative-a-lamelioration-et-a-la-conservation-des-locaux-et-batiments-de-luniversite.md (7 chunks)
+Erreur lors du traitement de credit.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-relative-a-lannulation-ou-a-labandon-dun-cours-pour-des-raisons-medicale-professionnelle-ou-judiciaire-attestees.md (14 chunks)
+Traité avec succès: procedure-relative-a-la-nomination-et-au-renouvellement-de-mandat-des-directions-de-departement.md (21 chunks)
+Traité avec succès: politique-de-developpement-des-collections.md (39 chunks)
+Erreur lors du traitement de comite-dunite-pedagogique.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-lembauche-detudiants-pour-laide-pedagogique.md (23 chunks)
+Traité avec succès: procedure-relative-aux-activites-jugees-intensives-pour-les-programmes-detudes-de-cycles-superieurs.md (7 chunks)
+Traité avec succès: reglement-relatif-a-la-gestion-des-biens-meubles-et-immeubles.md (16 chunks)
+Traité avec succès: guide-de-redaction-du-manuel-de-gestion-de-luqac.md (26 chunks)
+Traité avec succès: politique-relative-a-lacquisition-et-a-la-gestion-des-biens-meubles-et-immeubles-de-luniversite.md (6 chunks)
+Erreur lors du traitement de certificat.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-relative-a-la-distribution-du-courrier.md (7 chunks)
+Traité avec succès: procedure-relative-au-depot-et-a-la-gestion-des-allegations-dinconduite-en-recherche-et-en-creation.md (50 chunks)
+Traité avec succès: procedure-relative-a-la-progression-et-a-levaluation-de-letudiant-dans-un-programme-duree-des-etudes-echec-a-un-cours-obligatoire-moyenne-cumulative-et-restrictions.md (26 chunks)
+Traité avec succès: politique-relative-a-la-gestion-des-documents-administratifs-et-des-archives.md (42 chunks)
+Erreur lors du traitement de dossier-etudiant.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-lelaboration-du-plan-deffectifs-creation-abolition-et-fusion-de-postes-de-personnel-non-enseignant.md (12 chunks)
+Traité avec succès: reglement-relatif-aux-ressources-humaines.md (20 chunks)
+Traité avec succès: directive-relative-a-lattribution-et-a-la-gestion-de-la-telephonie-a-luqac.md (12 chunks)
+Traité avec succès: annexe-3-procedure-pour-le-partage-de-linformation-aux-organismes-subventionnaires-federaux.md (7 chunks)
+Traité avec succès: procedure-relative-au-pret-de-documents.md (6 chunks)
+Erreur lors du traitement de outils.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de these.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de regime-detudes.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-sur-lautorisation-la-validation-juridique-et-la-signature-des-contrats.md (33 chunks)
+Erreur lors du traitement de activite-de-recherche.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de communaute-universitaire.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-en-matiere-dengagement-du-personnel-des-categories-professionnel-technique-bureau-metiers-et-services-de-luqac.md (10 chunks)
+Traité avec succès: directive-sur-letablissement-dun-quota-de-traitement-des-demandes-dadmissions-recues-de-la-part-des-etudiants-internationaux-reguliers.md (14 chunks)
+Traité avec succès: annexe-1-references.md (13 chunks)
+Traité avec succès: reglement-relatif-aux-affaires-financieres.md (20 chunks)
+Traité avec succès: politique-relative-a-la-securite-des-membres-de-la-communaute-universitaire-sur-le-campus.md (11 chunks)
+Traité avec succès: table-des-matieres.md (86 chunks)
+Traité avec succès: procedure-relative-a-lemission-dattestations-detudes-dans-le-cadre-detudes-de-cycles-superieurs.md (5 chunks)
+Erreur lors du traitement de diplome-detudes-superieures-specialisees.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-la-nomination-et-au-renouvellement-des-cadres-superieurs.md (26 chunks)
+Traité avec succès: procedure-relative-a-lallocation-de-locaux-de-recherche.md (16 chunks)
+Traité avec succès: politique-institutionnelle-dutilisation-des-technologies-de-linformation-et-de-la-communication-dans-les-salles-de-cours.md (19 chunks)
+Traité avec succès: directive-relative-au-transfert-et-au-rappel-de-documents-administratifs-archives.md (21 chunks)
+Traité avec succès: procedure-relative-au-soutien-a-lenseignement.md (27 chunks)
+Erreur lors du traitement de admission.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-la-creation-et-a-la-modification-de-programmes-et-de-cours.md (30 chunks)
+Traité avec succès: procedure-en-matiere-de-passage-a-la-classe-1-pour-le-groupe-technique.md (10 chunks)
+Traité avec succès: procedure-pour-une-demande-de-perfectionnement-dun-membre-du-personnel-cadre-et-dinscription-au-programme-de-mobilite-des-cadres.md (8 chunks)
+Erreur lors du traitement de trimestre.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-institutionnelle-relative-au-soutien-a-lenseignement-aux-groupes-cours-de-forte-taille.md (19 chunks)
+Traité avec succès: directive-relative-a-la-collecte-et-a-la-detention-des-informations-reliees-au-statut-vaccinal.md (20 chunks)
+Erreur lors du traitement de direction-de-lunite-pedagogique.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de etudiant-libre.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-lutilisation-et-a-la-protection-des-animaux.md (21 chunks)
+Traité avec succès: reglement-relatif-aux-services-aux-etudiants-et-a-la-communaute.md (16 chunks)
+Traité avec succès: politique-relative-a-ladmission.md (87 chunks)
+Traité avec succès: procedure-en-matiere-de-signature-des-demandes-de-paiement.md (4 chunks)
+Traité avec succès: procedure-relative-aux-memoires-essais-doctoraux-et-theses.md (103 chunks)
+Traité avec succès: directive-sur-lencadrement-du-sport-dexcellence.md (26 chunks)
+Traité avec succès: politique-relative-aux-unites-deducation-continue.md (19 chunks)
+Traité avec succès: annexe-4-procedure-pour-le-partage-de-linformation-aux-fonds-de-recherche-du-quebec.md (13 chunks)
+Traité avec succès: politique-relative-a-lengagement-du-personnel-des-categories-professionnel-technique-bureau-metiers-et-services-de-luqac.md (5 chunks)
+Erreur lors du traitement de memoire.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-lemission-dattestations.md (5 chunks)
+Traité avec succès: politique-institutionnelle-de-gestion-des-ressources-humaines.md (29 chunks)
+Traité avec succès: directive-relative-aux-modalites-reliees-au-depot-de-documents-dans-constellation.md (21 chunks)
+Traité avec succès: procedure-relative-a-la-creation-la-fusion-la-division-ou-la-fermeture-dune-unite-pedagogique.md (12 chunks)
+Traité avec succès: politique-de-developpement-durable.md (29 chunks)
+Traité avec succès: politique-relative-a-loffre-hors-campus-dun-programme-detudes-de-cycles-superieurs.md (7 chunks)
+Erreur lors du traitement de regle-de-conservation.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de contrat-dapprovisionnement.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-aux-mesures-dintervention-en-cas-durgence-et-a-levacuation-des-locaux-universitaires.md (16 chunks)
+Traité avec succès: politique-relative-a-levaluation-de-la-qualite-des-enseignements.md (28 chunks)
+Traité avec succès: politique-daccueil-et-de-soutien-aux-etudiants-en-situation-de-handicap.md (20 chunks)
+Traité avec succès: directive-relative-a-lutilisation-des-outils-infonuagiques-microsoft-365.md (30 chunks)
+Traité avec succès: procedure-relative-a-lallocation-de-locaux-2.md (10 chunks)
+Traité avec succès: reglement-relatif-au-milieu-de-vie-et-a-la-securite.md (11 chunks)
+Traité avec succès: politique-en-matiere-de-maitrise-des-competences-informationnelles-dans-les-programmes-de-cycles-superieurs.md (19 chunks)
+Erreur lors du traitement de departement.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de unite-pedagogique.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-precisant-le-programme-de-bourses-dexemption-decoulant-de-la-politique-relative-aux-droits-de-scolarite-exiges-des-etudiants-etrangers-par-les-universites-du-quebec-du-ministere-de.md (77 chunks)
+Traité avec succès: procedure-dattribution-de-distinctions-honorifiques.md (24 chunks)
+Traité avec succès: politique-linguistique.md (36 chunks)
+Traité avec succès: politique-relative-a-la-conduite-responsable-en-recherche-et-en-creation.md (34 chunks)
+Erreur lors du traitement de chef-detablissement.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-sur-la-formation-continue.md (26 chunks)
+Erreur lors du traitement de dirigeant.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-aux-regles-de-presentation-et-de-redaction-des-travaux-des-etudiants.md (13 chunks)
+Erreur lors du traitement de doyen-des-etudes.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de non-classe.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-de-gestion-des-acces-a-siga3-safirh.md (7 chunks)
+Traité avec succès: politique-daudition-de-verification.md (14 chunks)
+Traité avec succès: procedure-relative-au-financement-des-projets-etudiants-par-les-services-aux-etudiants.md (7 chunks)
+Traité avec succès: procedure-relative-relative-a-la-delocalisation-de-programmes-denseignement-de-luqac-a-letranger.md (18 chunks)
+Traité avec succès: procedure-relative-a-levaluation-de-la-qualite-des-enseignements.md (48 chunks)
+Traité avec succès: procedure-relative-aux-restrictions-et-a-la-poursuite-des-activites-dun-programme-detudes-de-cycles-superieurs.md (15 chunks)
+Traité avec succès: politique-relative-a-la-retraite-anticipee-et-a-la-retraite-graduelle.md (7 chunks)
+Traité avec succès: procedure-relative-a-loffre-de-programmes-detudes-hors-campus.md (9 chunks)
+Erreur lors du traitement de calendrier-de-conservation.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-au-service-des-technologies-de-linformation.md (7 chunks)
+Traité avec succès: procedure-relative-a-lhabilitation-institutionnelle.md (15 chunks)
+Traité avec succès: politique-sur-le-libre-acces-et-le-depot-institutionnel-de-luniversite-du-quebec-a-chicoutimi-constellation.md (43 chunks)
+Traité avec succès: procedure-relative-a-lequipement-et-au-materiel.md (8 chunks)
+Traité avec succès: procedure-relative-a-la-creation-et-a-la-modification.md (49 chunks)
+Erreur lors du traitement de concentration.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-relative-au-pret-et-a-la-location-du-petit-theatre.md (11 chunks)
+Traité avec succès: procedure-relative-a-lattribution-des-bourses-dexemption-de-frais-de-scolarite.md (8 chunks)
+Traité avec succès: procedure-relative-a-lexoneration-de-frais-de-scolarite.md (5 chunks)
+Traité avec succès: directive-dacces-a-linformation-de-luqac-en-teletravail.md (11 chunks)
+Traité avec succès: procedure-en-matiere-dacquisition-de-renouvellement-et-de-gestion-des-polices-dassurance.md (7 chunks)
+Erreur lors du traitement de documents-normatifs.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: index-analytique.md (140 chunks)
+Traité avec succès: politique-relative-aux-subventions-de-recherche.md (14 chunks)
+Traité avec succès: procedure-relative-a-la-securite-dans-les-laboratoires-et-les-ateliers.md (13 chunks)
+Traité avec succès: politique-dacquisition-et-de-conservation-des-oeuvres-dart.md (28 chunks)
+Traité avec succès: directive-relative-a-laffichage.md (8 chunks)
+Erreur lors du traitement de nous-joindre.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: reglement-relatif-aux-departements-aux-unites-pedagogiques-et-au-soutien-aux-enseignants.md (42 chunks)
+Traité avec succès: doctorat.md (1 chunks)
+Traité avec succès: directive-relative-a-la-reservation-et-a-lutilisation-des-espaces-et-des-installations-de-la-foret-denseignement-et-de-recherche-simoncouche.md (12 chunks)
+Traité avec succès: procedure-relative-a-la-nomination-et-au-renouvellement-de-mandat-du-doyen-ou-de-la-doyenne-associee.md (18 chunks)
+Traité avec succès: procedure-en-matiere-dinformation-officielle-a-lexterieur-de-luniversite.md (6 chunks)
+Traité avec succès: politique-relative-aux-contrats-et-commandites-de-recherche.md (20 chunks)
+Traité avec succès: politique-relative-aux-inventions-et-aux-brevets-2.md (28 chunks)
+Traité avec succès: procedure-concernant-le-remboursement-t-le-paiement-de-frais-de-deplacement-et-de-sejour-de-representation-de-reception-et-de-reunion.md (66 chunks)
+Traité avec succès: politique-relative-a-la-planification-institutionnelle.md (33 chunks)
+Erreur lors du traitement de enseignant.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de moyenne-cumulative.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de equipe-programme.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de habilitation-institutionnelle.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de actif-informationnel.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-relative-aux-programmes-de-bourses-pour-les-etudiant-e-s-internationaux-ales-regulier-ere-sdereglemente-e-s-diplomant-dans-un-programme-de-1er-cycle-et-de-2e-cycle-volet-professio.md (54 chunks)
+Traité avec succès: politique-relative-a-lencadrement-financier-des-etudiants-des-programmes-detudes-de-cycles-superieurs.md (15 chunks)
+Erreur lors du traitement de doyen-des-affaires-departementales.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-au-budget-de-fonctionnement-sans-restriction-et-au-budget-dinvestissement.md (6 chunks)
+Traité avec succès: procedure-relative-a-la-creation-et-a-la-modification-dun-cours.md (26 chunks)
+Traité avec succès: politique-relative-a-lattribution-de-contrats-et-a-la-gestion-contractuelle-2.md (67 chunks)
+Traité avec succès: politique-relative-aux-services-personnels-et-collectifs-offerts-a-la-communaute-etudiante.md (5 chunks)
+Traité avec succès: procedure-relative-a-la-nomination-et-au-renouvellement-de-mandat-de-la-direction-dune-unite-pedagogique.md (37 chunks)
+Erreur lors du traitement de cycle.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-levaluation-institutionnelle-de-programme.md (37 chunks)
+Traité avec succès: reglement-sur-les-programmes-detudes.md (94 chunks)
+Traité avec succès: procedure-relative-a-la-planification-strategique.md (19 chunks)
+Traité avec succès: procedure-relative-a-levaluation-de-lapprentissage-dun-etudiant-dans-un-cours.md (53 chunks)
+Erreur lors du traitement de annexe-1-activites-denseignement-ne-donnant-pas-droit-a-un-remboursement-au-cas-dannulation-ou-dabandon.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-linformation-et-aux-relations-publiques.md (8 chunks)
+Traité avec succès: procedure-relative-a-la-reconnaissance-de-la-participation-a-valeur-formatrice-des-etudiants-a-la-vie-institutionnelle.md (14 chunks)
+Traité avec succès: politique-relative-au-patrimoine-scientifique.md (24 chunks)
+Erreur lors du traitement de assemblee-departementale.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-la-location-despace.md (7 chunks)
+Erreur lors du traitement de procedure-sur-les-transports-avec-un-vehicule-lourd.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-relative-au-cycle-de-vie-des-ordinateurs.md (10 chunks)
+Traité avec succès: politique-de-confidentialite-concernant-les-renseignements-personnels-recueillis-par-moyens-technologiques.md (25 chunks)
+Traité avec succès: politique-sur-la-gestion-des-risques-biologiques-a-luqac.md (17 chunks)
+Traité avec succès: procedure-relative-a-laide-financiere-aux-etudiants-et-etudiantes.md (7 chunks)
+Erreur lors du traitement de annee-universitaire.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-la-securite-des-actifs-informationnels.md (24 chunks)
+Traité avec succès: politique-pour-promouvoir-la-civilite-prevenir-et-contrer-la-discrimination-le-harcelement-et-la-violence.md (80 chunks)
+Erreur lors du traitement de abonnement-mises-a-jour-du-manuel-de-gestion.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-en-matiere-de-soutien-aux-frais-de-demenagement.md (10 chunks)
+Traité avec succès: procedure-relative-a-la-planification-trimestrielle-des-activites-denseignement.md (35 chunks)
+Erreur lors du traitement de comite-executif.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de notation.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-lelagage-de-documents.md (5 chunks)
+Traité avec succès: politique-sur-la-gestion-des-risques-de-corruption-et-de-collusion-dans-le-processus-de-gestion-contractuelle.md (30 chunks)
+Traité avec succès: lexique.md (12 chunks)
+Traité avec succès: politique-visant-a-prevenir-et-a-combattre-les-violences-a-caractere-sexuel.md (130 chunks)
+Erreur lors du traitement de conseil-dadministration.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-la-gestion-de-la-foret-denseignement-et-de-recherche-simoncouche-2.md (11 chunks)
+Traité avec succès: politique-relative-aux-droits-dauteurs.md (26 chunks)
+Traité avec succès: procedure-relative-a-letablissement-des-conditions-de-travail-du-personnel-administratif-de-luniversite-du-quebec-a-chicoutimi.md (6 chunks)
+Traité avec succès: politique-de-placement.md (19 chunks)
+Traité avec succès: procedure-relative-a-laccreditation-des-unites-de-recherche-ou-de-recherche-creation.md (48 chunks)
+Traité avec succès: politique-dethique-de-la-recherche-avec-des-etres-humains.md (84 chunks)
+Traité avec succès: procedure-concernant-la-reception-et-lexamen-des-plaintes-en-vertu-de-larticle-21-0-3-de-la-loi-sur-les-contrats-des-organismes-publics.md (41 chunks)
+Traité avec succès: directive-de-gestion-des-droits-et-des-profils-dacces-informatiques.md (16 chunks)
+Traité avec succès: reglement-relatif-a-la-recherche-et-a-la-creation.md (35 chunks)
+Erreur lors du traitement de archives.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-de-verification-des-acces-informatiques.md (6 chunks)
+Erreur lors du traitement de auditeur.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de chapitre-3.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de doyen-de-la-recherche-et-de-la-creation.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-relative-a-la-disposition-de-biens-meubles-et-immeubles-appartenant-a-luqac.md (9 chunks)
+Erreur lors du traitement de groupe-de-recherche.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: directive-relative-a-linscription-des-activites-lacces-aux-installations-ainsi-qua-la-location-de-plateaux-et-de-materiel-du-service-des-activites-et-des-amenagements-sport.md (14 chunks)
+Erreur lors du traitement de champ-detudes.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-lutilisation-des-vehicules-de-luniversite.md (6 chunks)
+Traité avec succès: reglement-sur-la-mission-et-les-valeurs-de-luqac.md (18 chunks)
+Traité avec succès: reglement-sur-les-relations-publiques-les-communications-et-les-evenements-institutionnels-de-luqac.md (23 chunks)
+Traité avec succès: directive-relative-a-la-gestion-des-comptes-de-courriel.md (18 chunks)
+Traité avec succès: politique-relative-a-la-valorisation-du-francais.md (36 chunks)
+Traité avec succès: procedure-relative-a-la-valorisation-du-francais.md (47 chunks)
+Erreur lors du traitement de mot-cles.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de essai.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-sur-la-liberte-academique-universitaire.md (34 chunks)
+Erreur lors du traitement de professeur.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de universite-du-quebec-a-chicoutimi.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Erreur lors du traitement de chapitre-2.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: politique-de-toponymie.md (26 chunks)
+Traité avec succès: politique-de-radioprotection.md (27 chunks)
+Traité avec succès: procedure-relative-a-lapprobation-dun-programme-de-doctorat-sur-mesure.md (25 chunks)
+Traité avec succès: duree-des-etudes.md (3 chunks)
+Erreur lors du traitement de activite-de-formation-pratique.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: reglement-sur-lorganisation-la-revision-et-la-standardisation-du-manuel-de-gestion.md (17 chunks)
+Traité avec succès: procedure-relative-a-la-tenue-des-reunions-de-comites-dunite-pedagogique.md (43 chunks)
+Traité avec succès: cadre-de-remuneration-des-cadres-superieurs-de-luniversite-du-quebec-a-chicoutimi.md (20 chunks)
+Traité avec succès: procedure-relative-a-lorganisation-des-activites-de-formation-pratique-au-premier-cycle.md (22 chunks)
+Traité avec succès: politique-relative-au-service-des-activites-et-des-amenagements-sportifs-de-luniversite-du-quebec-a-chicoutimi.md (11 chunks)
+Traité avec succès: procedure-en-matiere-de-temps-supplementaire.md (4 chunks)
+Traité avec succès: politique-generale-de-dons.md (30 chunks)
+Traité avec succès: politique-relative-a-levaluation-institutionnelle-de-programme.md (31 chunks)
+Traité avec succès: procedure-relative-aux-virements-budgetaires.md (11 chunks)
+Traité avec succès: politique-relative-aux-conflits-dinterets.md (17 chunks)
+Traité avec succès: procedure-relative-aux-dons-en-documents-ou-en-argent.md (14 chunks)
+Erreur lors du traitement de presentement-en-revision.md: Expected Embedings to be non-empty list or numpy array, got [] in upsert.
+Traité avec succès: procedure-relative-a-la-securite-des-membres-de-la-communaute-universitaire-sur-le-campus.md (26 chunks)

@@ -30,7 +30,7 @@ def split_markdown_into_chunks(markdown_text, chunk_size=500, chunk_overlap=25):
     
     return chunks
 
-def create_chunks_from_file(file_path):
+def create_chunks_from_file(file_path, verbose=False):
 
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"Le fichier {file_path} est introuvable")
@@ -46,13 +46,14 @@ def create_chunks_from_file(file_path):
         chunk_overlap=100  
     )
     
-    # Affichage des résultats
-    print(f"Nombre total de chunks : {len(chunks)}")
-    
-    # Affichage des premiers chunks pour vérification
-    for i, chunk in enumerate(chunks[:5]):  # Affiche les 3 premiers chunks
-        print(f"\nChunk {i+1}:")
-        print("-" * 50)
-        print(chunk)
-        print("-" * 50)
+    if verbose:
+        # Affichage des résultats
+        print(f"Nombre total de chunks : {len(chunks)}")
+        
+        # Affichage des premiers chunks pour vérification
+        for i, chunk in enumerate(chunks[:5]):  # Affiche les 3 premiers chunks
+            print(f"\nChunk {i+1}:")
+            print("-" * 50)
+            print(chunk)
+            print("-" * 50)
     return chunks
