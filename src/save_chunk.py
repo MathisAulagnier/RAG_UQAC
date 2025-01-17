@@ -18,7 +18,6 @@ def save_chunks_to_chroma(chunks, embeddings, persist_directory="./chroma_db"):
     Stocke les chunks dans une base de données Chroma [save_chunk.py]
     """
 
-
     # Extraction de l'URL du premier chunk
     url = extract_url_from_header(chunks[0])
     if url is None:
