@@ -1,5 +1,4 @@
 # RAG_UQAC
-
 Implémenter un chatbot utilisant la technique de Retrieval Augmented Generation (RAG) à l’aide de la librairie Python Langchain. L’objectif principal est de créer un système capable de répondre à des questions en s’appuyant sur des données extraites d’un manuel de gestion disponible sur le site de l’UQAC.
 
 ## Scraping des Pages Web en Markdown
@@ -39,3 +38,72 @@ Pour exécuter le processus de scraping et d’enregistrement des articles en Ma
 cd src/scrapping
 python scrapping.py --output <nom_dossier>
 ```
+
+## Base de Données Vectorielle et Embedding
+
+### Objectif
+
+Cette partie vise à transformer les documents Markdown en une base de données vectorielle permettant une recherche sémantique efficace. Le processus comprend la création de chunks (segments de texte), leur embedding (transformation en vecteurs), et leur stockage dans une base de données vectorielle.
+
+### Méthodes Utilisées
+
+1. **Découpage en Chunks** :
+   - Les documents Markdown sont découpés en segments plus petits pour un traitement optimal
+   - Utilisation de `MarkdownTextSplitter` avec overlap pour maintenir le contexte
+   - Extraction de l'URL source depuis le header de chaque document
+
+2. **Embedding des Chunks** :
+   - Transformation des chunks en vecteurs via le modèle Ollama
+   - Conservation des métadonnées (URL source) pour chaque chunk
+   - Dimension des vecteurs : 4096 (modèle llama2)
+
+3. **Stockage Vectoriel** :
+   - Utilisation de Chroma DB comme base de données vectorielle
+   - Persistance locale des données pour réutilisation
+   - Association des métadonnées (source) à chaque chunk
+
+### Programmes
+
+#### create_chunk.py
+
+- **Objectif** : Découper les documents Markdown en chunks cohérents avec overlap
+- **Fonctionnalités** :
+  - Lecture des fichiers Markdown
+  - Découpage en segments avec préservation du contexte
+  - Gestion de la taille des chunks et de l'overlap
+
+#### save_chunk.py
+
+- **Objectif** : Stocker les chunks dans la base de données vectorielle Chroma
+- **Fonctionnalités** :
+  - Extraction de l'URL source
+  - Génération des embeddings
+  - Stockage des chunks avec leurs métadonnées
+
+#### process_markdown_files.py
+
+- **Objectif** : Automatiser le traitement de multiples fichiers Markdown
+- **Fonctionnalités** :
+  - Traitement en lot des fichiers d'un dossier
+  - Réinitialisation de la base de données
+  - Génération de statistiques de traitement
+
+### Exécution
+
+Pour traiter les fichiers Markdown et créer la base de données vectorielle :
+
+```bash
+python process_markdown_files.py chemin/vers/dossier/markdown [--persist_dir ./ma_base_chroma]
+```
+
+### Structure des Données
+
+- **Format des Chunks** :
+  - Premier chunk : URL source (#https://example.com)
+  - Chunks suivants : Contenu avec overlap
+  - Métadonnées : URL source associée
+- **Base de Données** :
+  - Type : Chroma DB
+  - Stockage : Local (./chroma_db par défaut)
+  - Format : Vecteurs d'embedding + métadonnées
+
