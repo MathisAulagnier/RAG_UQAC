@@ -3,7 +3,7 @@ from chromadb import Client
 from langchain.embeddings import OllamaEmbeddings
 
 # Charger la base vectorielle
-client = Client(Settings(persist_directory="../chroma_db/chroma.sqlite3"))
+client = Client(Settings(persist_directory="./../chroma_db/chroma.sqlite3"))
 collection = client.get_collection("UQAC_documents")
 
 # Générer un embedding pour le prompt utilisateur
