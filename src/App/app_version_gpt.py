@@ -27,7 +27,7 @@ def load_chroma_db(persist_directory="./../chroma_db"):
     # Chargement direct du retriever basé sur la base persistante
     retriever = Chroma(
         persist_directory=persist_directory,
-        embedding_function=OllamaEmbeddings(model="llama3")  # Pas besoin de spécifier de fonction d'embedding
+        embedding_function=OllamaEmbeddings(model="llama3")
     ).as_retriever(search_kwargs={"k": 3})
     return retriever
 
