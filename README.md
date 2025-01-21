@@ -111,14 +111,14 @@ python process_markdown_files.py chemin/vers/dossier/markdown [--persist_dir ./m
 
 - **Lancé le Serveur Ollama en Local** :
   Ouvrir un terminal Windows PowerShell
-  Puis taper ces deux commandes à la suite :  
+  puis taper ces deux commandes à la suite :  
     ```bash
     $env:OLLAMA_HOST="0.0.0.0"
     ollama serve
     ```
 - **Lancé l'Application** :
   Ouvrir un deuxième terminal Windows PowerShell
-  Puis taper ces deux commandes à la suite (en remplacant le chemin de la commande cd par votre propre chemin vers de dossier "App" du projet):  
+  puis taper ces deux commandes à la suite (en remplacant le chemin de la commande cd par votre propre chemin vers de dossier "App" du projet):  
     ```bash
     cd C:\Users\ryan4\Atelier_pratique2\Projet1\src\App
     streamlit run app_version_gpt.py
