@@ -93,7 +93,8 @@ Cette partie vise à transformer les documents Markdown en une base de données 
 Pour traiter les fichiers Markdown et créer la base de données vectorielle :
 
 ```bash
-python process_markdown_files.py chemin/vers/dossier/markdown [--persist_dir ./ma_base_chroma]
+cd src/
+python load_chroma.py scrapping/output_UQAC_Website/
 ```
 
 ### Structure des Données
