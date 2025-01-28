@@ -22,7 +22,7 @@ st.write("Posez une question en rapport avec le guide de gestion de l'UQAC.")
 # Fonction pour charger la base de données Chroma existante
 @st.cache_resource
 def load_chroma_db(
-        persist_directory="C:/Users/ryan4/OneDrive/Documents/RYAN/ISEN/Année24-25_UQAC/Trimestre2/Atelier_pratique2/Projet1/src/chroma_db"):
+        persist_directory="../chroma_db"):
     try:
         if not os.path.exists(persist_directory):
             st.error(f"Le répertoire spécifié pour la base Chroma n'existe pas : {persist_directory}")

@@ -84,3 +84,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Pour exécuter le script, vous pouvez utiliser la commande suivante :
+# python load_chroma.py <chemin_vers_le_répertoire> --persist_dir <répertoire_de_persistance>
