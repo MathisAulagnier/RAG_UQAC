@@ -1,4 +1,5 @@
 import os
+import re
 import streamlit as st
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
@@ -8,6 +9,14 @@ from langchain_chroma import Chroma
 from langchain_ollama import OllamaLLM
 import chromadb
 from chromadb.config import Settings
+
+# Fonction pour nettoyer la réponse des balises <think>
+def clean_response(text):
+    # Supprime tout le contenu entre les balises <think> et </think>
+    cleaned_text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
+    # Supprime les espaces supplémentaires et les lignes vides
+    cleaned_text = '\n'.join(line.strip() for line in cleaned_text.split('\n') if line.strip())
+    return cleaned_text
 
 # Initialisation de l'historique de conversation
 if "chat_history" not in st.session_state:
@@ -51,7 +60,6 @@ def load_chroma_db(persist_directory="../chroma_db"):
         st.error(f"Erreur lors du chargement de la base Chroma : {str(e)}")
         return None
 
-
 # Charger le retriever
 retriever = load_chroma_db()
 
@@ -60,7 +68,7 @@ if retriever is None:
 
 # Configurer le LLM avec Ollama
 llm = OllamaLLM(
-    model="llama3",
+    model="deepseek-r1:8b",
     base_url="http://localhost:11434",
     temperature=0.7
 )
@@ -90,7 +98,9 @@ for message in st.session_state["chat_history"]:
     if isinstance(message, HumanMessage):
         st.write(f"**Vous**: {message.content}")
     elif isinstance(message, AIMessage):
-        st.write(f"**Chatbot**: {message.content}")
+        # Nettoyer la réponse avant l'affichage
+        cleaned_content = clean_response(message.content)
+        st.write(f"**Chatbot**: {cleaned_content}")
 
 user_input = st.text_input("Votre question :", key="user_input", placeholder="Posez votre question ici...")
 
@@ -100,18 +110,20 @@ if user_input:
             # Ajouter la question à la mémoire
             memory.chat_memory.add_user_message(user_input)
 
-            # Préparer le prompt
+            # Nouveau prompt avec les instructions spécifiques
             prompt = (
-                "Sur la base des documents extraits du guide de gestion de l'UQAC, "
-                "faites une synthèse cohérente pour répondre en français à cette question : "
-                f"{user_input}\n"
+                "Instructions: Faites une synthèse cohérente des documents pour répondre en français "
+                "à cette question (vous ne devez pas reformuler la question mais y apporter une "
+                "réponse construite et justifiée en français). Votre réponse doit être directe, "
+                "sans réflexion préalable visible et sans utiliser de balises spéciales.\n\n"
+                f"Question: {user_input}\n"
             )
 
             # Récupérer la réponse
             response = qa_chain.invoke({"question": prompt})
 
-            # Ajouter la réponse du chatbot à la mémoire
-            chatbot_response = response["answer"]
+            # Nettoyer et ajouter la réponse du chatbot à la mémoire
+            chatbot_response = clean_response(response["answer"])
             memory.chat_memory.add_ai_message(chatbot_response)
 
             # Mettre à jour l'historique de session
