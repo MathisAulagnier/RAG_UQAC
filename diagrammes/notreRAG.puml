@@ -1,0 +1,48 @@
+@startuml
+skinparam componentStyle rectangle
+
+actor User
+
+
+package "Frontend (Streamlit)" {
+    [Interface Utilisateur] 
+    [Gestion des Inputs] 
+    [Affichage des Résultats]
+
+    User --> [Interface Utilisateur] : Pose une question
+    [Interface Utilisateur] --> [Gestion des Inputs] : Transmettre la question
+    [Affichage des Résultats] --> User : Afficher les résultats à l'utilisateur
+}
+
+package "Backend" {
+    [Serveur Streamlit]
+
+    package "Module de Recherche" {
+        [Recherche KNN]
+        Database "Base de Données Vectorielle (Chroma)" {
+            [Chunks]
+            [Vecteurs]
+        }
+    }
+
+    [Chunks] --> [Vecteurs] : Embedding avec Llama3
+
+    package "Module de Génération" {
+        [Module LLM]
+    }
+
+    [Serveur Streamlit] --> [Recherche KNN] : Embedding avec Llama3
+  
+
+    [Base de Données Vectorielle (Chroma)] --> [Recherche KNN] : Transmettre les vecteurs des chunks
+
+    [Recherche KNN] --> [Module LLM] : Transmettre les documents trouvés pertinents
+    [Serveur Streamlit] --> [Module LLM] : Transmettre le prompt système
+    [Serveur Streamlit] --> [Module LLM] : Transmettre la question de l'utilisateur
+
+    [Module LLM] --> [Serveur Streamlit] : Transmettre la réponse générée
+}
+
+[Gestion des Inputs] --> [Serveur Streamlit] : Envoyer la requête utilisateur
+[Serveur Streamlit] --> [Affichage des Résultats] : Transmettre les documents trouvés
+@enduml
