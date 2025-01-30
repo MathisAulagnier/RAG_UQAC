@@ -18,7 +18,7 @@ package "Backend" {
     [Serveur Streamlit]
 
     package "Module de Recherche" {
-        [Recherche KNN]
+        [Recherche ANN]
         Database "Base de Données Vectorielle (Chroma)" {
             [Chunks]
             [Vecteurs]
@@ -31,18 +31,18 @@ package "Backend" {
         [Module LLM]
     }
 
-    [Serveur Streamlit] --> [Recherche KNN] : Embedding avec Llama3
+    [Serveur Streamlit] --> [Recherche ANN] : Embedding de la requete avec Llama3
   
 
-    [Base de Données Vectorielle (Chroma)] --> [Recherche KNN] : Transmettre les vecteurs des chunks
+    [Base de Données Vectorielle (Chroma)] --> [Recherche ANN] : Transmettre les vecteurs des chunks
 
-    [Recherche KNN] --> [Module LLM] : Transmettre les documents trouvés pertinents
-    [Serveur Streamlit] --> [Module LLM] : Transmettre le prompt système
+    [Recherche ANN] --> [Module LLM] : Transmettre les documents trouvés pertinents
+    [Serveur Streamlit] --> [Module LLM] : Transmettre le prompt système & l'historique conversationnel
     [Serveur Streamlit] --> [Module LLM] : Transmettre la question de l'utilisateur
 
     [Module LLM] --> [Serveur Streamlit] : Transmettre la réponse générée
 }
 
 [Gestion des Inputs] --> [Serveur Streamlit] : Envoyer la requête utilisateur
-[Serveur Streamlit] --> [Affichage des Résultats] : Transmettre les documents trouvés
+[Serveur Streamlit] --> [Affichage des Résultats] : Transmettre la réponse générée et les sources
 @enduml
