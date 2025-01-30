@@ -103,13 +103,23 @@ if user_input:
         try:
             memory.chat_memory.add_user_message(user_input)
 
+            # Conserver seulement le dernier échange (question + réponse)
+            if len(st.session_state["chat_history"]) >= 2:
+                recent_conversation = st.session_state["chat_history"][-2:]  # Prendre le dernier échange
+                recent_messages = [msg.content for msg in recent_conversation]  # Extraire les contenus des messages
+            else:
+                recent_messages = []
+
             # Prompt pour la première réponse
             prompt = (
                 "Instructions: Summarize the enclosed information coherently to give a direct, well-supported answer, citing your sources without any visible preliminary thought process to answer the question."
                 "You must absolutely answer the question! "
                 "Your response must begin with:"
                 f'"Question: {user_input}\n <br> \n'
-                f'"To answer the question '"'{user_input}', several key factors need to be considered: 1. ..."'"'
+                '"To answer the question 'f"'{user_input}', several key factors need to be considered: 1. ..."'"'
+                "Recent conversation:\n"
+                f"1. {recent_messages[-2]} \n" if len(recent_messages) > 1 else ""
+                f"2. {recent_messages[-1]} \n" if len(recent_messages) > 0 else ""
             )
 
             # 🔹 Première requête au LLM (réponse initiale)
