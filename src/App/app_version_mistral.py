@@ -18,7 +18,7 @@ def clean_response(text):
     cleaned_text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
     # Supprime les espaces supplémentaires et les lignes vides
     cleaned_text = '\n'.join(line.strip() for line in cleaned_text.split('\n') if line.strip())
-    return cleaned_text
+    return text
 
 # Initialisation de l'historique de conversation
 if "chat_history" not in st.session_state:
@@ -70,10 +70,9 @@ if retriever is None:
 
 # Configurer le LLM avec Ollama
 llm = OllamaLLM(
-    model="deepseek-r1:8b",
+    model="mistral",
     base_url="http://localhost:11434",
-    temperature=0.7,
-    max_tokens=8000
+    temperature=0.7
 )
 
 # Configuration de la mémoire
@@ -90,11 +89,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     memory=memory,
     return_source_documents=True,
     output_key="answer"
-    #condense_question_prompt=None
 )
-
-# Ajout d'une instruction initiale
-#memory.chat_memory.add_ai_message("Je répondrai en français à toutes les questions en utilisant les documents fournis.")
 
 # Interface utilisateur
 st.write("### Historique de la conversation :")
@@ -117,12 +112,11 @@ if user_input:
 
             # Nouveau prompt avec les instructions spécifiques
             prompt = (
-                "Instructions: Faites une synthèse cohérente des informations ci-jointes pour proposer une réponse construite, directe et justifiée"
-                "sans réflexion préalable visible pour répondre en français à la question "
-                "Vous devez absolument répondre à la question ! Et tu as interdiction d'écrire tes pensées avec des balise <think> ."
-                "Ta réponse doit obligatoirement commencer par :"
-                f"Question : {user_input}\n<br>\n"
-                'Pour répondre à la question 'f'"{user_input}", il faut considérer plusieurs facteurs clés :\n1. ..."'
+                "Instructions: Provide a coherent summary of the attached information to give a direct, well-supported response without any visible preliminary thought process to answer the question."
+                "You must absolutely answer the question! "
+                "Your response must begin with:"
+                f'"Question: {user_input}\n <br> \n'
+                f'"To answer the question '"'{user_input}', several key factors need to be considered: 1. ..."'"'
             )
 
             #st.write(f"🔍 Requête envoyée à ChromaDB : {user_input}")

@@ -10,15 +10,11 @@ from langchain_ollama import OllamaLLM
 import chromadb
 from chromadb.config import Settings
 
-
-
 # Fonction pour nettoyer la réponse des balises <think>
 def clean_response(text):
-    # Supprime tout le contenu entre les balises <think> et </think>
-    cleaned_text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
-    # Supprime les espaces supplémentaires et les lignes vides
-    cleaned_text = '\n'.join(line.strip() for line in cleaned_text.split('\n') if line.strip())
-    return cleaned_text
+    #cleaned_text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL)
+    #cleaned_text = '\n'.join(line.strip() for line in cleaned_text.split('\n') if line.strip())
+    return text
 
 # Initialisation de l'historique de conversation
 if "chat_history" not in st.session_state:
@@ -70,10 +66,9 @@ if retriever is None:
 
 # Configurer le LLM avec Ollama
 llm = OllamaLLM(
-    model="deepseek-r1:8b",
+    model="mistral",
     base_url="http://localhost:11434",
-    temperature=0.7,
-    max_tokens=8000
+    temperature=0.7
 )
 
 # Configuration de la mémoire
@@ -90,11 +85,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
     memory=memory,
     return_source_documents=True,
     output_key="answer"
-    #condense_question_prompt=None
 )
-
-# Ajout d'une instruction initiale
-#memory.chat_memory.add_ai_message("Je répondrai en français à toutes les questions en utilisant les documents fournis.")
 
 # Interface utilisateur
 st.write("### Historique de la conversation :")
@@ -102,46 +93,49 @@ for message in st.session_state["chat_history"]:
     if isinstance(message, HumanMessage):
         st.write(f"**Vous**: {message.content}")
     elif isinstance(message, AIMessage):
-        # Nettoyer la réponse avant l'affichage
         cleaned_content = clean_response(message.content)
         st.write(f"**Chatbot**: {cleaned_content}")
-        #st.write(f"**Chatbot**: {message.content}")
 
 user_input = st.text_input("Votre question :", key="user_input", placeholder="Posez votre question ici...")
 
 if user_input:
     with st.spinner("Recherche en cours..."):
         try:
-            # Ajouter la question à la mémoire
             memory.chat_memory.add_user_message(user_input)
 
-            # Nouveau prompt avec les instructions spécifiques
+            # Prompt pour la première réponse
             prompt = (
-                "Instructions: Faites une synthèse cohérente des informations ci-jointes pour proposer une réponse construite, directe et justifiée"
-                "sans réflexion préalable visible pour répondre en français à la question "
-                "Vous devez absolument répondre à la question ! Et tu as interdiction d'écrire tes pensées avec des balise <think> ."
-                "Ta réponse doit obligatoirement commencer par :"
-                f"Question : {user_input}\n<br>\n"
-                'Pour répondre à la question 'f'"{user_input}", il faut considérer plusieurs facteurs clés :\n1. ..."'
+                "Instructions: Summarize the enclosed information coherently to give a direct, well-supported answer, citing your sources without any visible preliminary thought process to answer the question."
+                "You must absolutely answer the question! "
+                "Your response must begin with:"
+                f'"Question: {user_input}\n <br> \n'
+                f'"To answer the question '"'{user_input}', several key factors need to be considered: 1. ..."'"'
             )
 
-            #st.write(f"🔍 Requête envoyée à ChromaDB : {user_input}")
-
-            # Récupérer la réponse
+            # 🔹 Première requête au LLM (réponse initiale)
             response = qa_chain.invoke({"question": prompt})
-
-            # Nettoyer et ajouter la réponse du chatbot à la mémoire
             chatbot_response = clean_response(response["answer"])
-            #chatbot_response = response["answer"]
-            memory.chat_memory.add_ai_message(chatbot_response)
+
+            # 🔹 Deuxième requête au LLM pour s'assurer que la réponse est bien en français
+            translation_prompt = (
+                "Translate this text into French if it's in English. If it's already in French, return it as is without modifying anything: "
+                f'"{chatbot_response}"'
+            )
+            translation_response = llm.invoke(translation_prompt)
+
+            # Nettoyer la réponse traduite
+            final_response = clean_response(translation_response)
+
+            # Ajouter la réponse finale à la mémoire
+            memory.chat_memory.add_ai_message(final_response)
 
             # Mettre à jour l'historique de session
             st.session_state["chat_history"].append(HumanMessage(content=user_input))
-            st.session_state["chat_history"].append(AIMessage(content=chatbot_response))
+            st.session_state["chat_history"].append(AIMessage(content=final_response))
 
             # Afficher la réponse
             st.success("Réponse générée :")
-            st.write(chatbot_response)
+            st.write(final_response)
 
             # Afficher les documents sources
             if response.get("source_documents"):
