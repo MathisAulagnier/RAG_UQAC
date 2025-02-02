@@ -126,3 +126,13 @@ python load_chroma.py scrapping/output_UQAC_Website/
     ```
 
 
+
+
+
+A faire : 
+ -  Tester une nouvelle version d'embedding 
+ -  Summary des conversation pour l'historique afin de ne pas surcharger la mémoire (Limite de Token)
+ Présenter dans le rappmort les différents tests de modele et les justifier:
+ 
+  -  Modèles pour l'embedding : all-MiniLM-L6-v2 / Llama3 / Nomic-embedding
+  -  Modèles pour la génération : GPT-2 / Mistall-small / Llama3 / DeepSeek 8B / Mistral 7B double appel

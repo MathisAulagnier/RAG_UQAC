@@ -53,7 +53,7 @@
 \usepackage{glossaries} % Ajout du package pour le glossaire
 
 \title{ChatBot Langchain pour l'UQAC}
-\author{Mathis Aulagnier}
+\author{Mathis A., Ryan C., Samuel M.}
 \date{\today}
  
 \usepackage{hyperref}
@@ -97,7 +97,7 @@
 \noindent\begin{tabular}{@{}ll}
     Réalisé par :\\
         & Mathis Aulagnier - AULM12040200 \\
-        & Ryan COLLOBERT - COLR28120200 \\
+        & Ryan Collobert - COLR28120200 \\
         & Samuel Madrigal - MADS23060200 \\
         \\
     Cours :  &  8INF974 – ATELIER PRATIQUE EN INTELLIGENCE ARTIFICIELLE II \\
@@ -106,7 +106,7 @@
 \section{Introduction}
 
 \subsection{État des lieux}
-\quad L'Université du Québec à Chicoutimi (UQAC) regroupe plus de 6500 étudiants répartis dans plus de 200 programmes d'études. Pour assurer sa gestion administrative, l'université dispose d'un manuel de gestion qui regroupe l'ensemble des règlements, politiques et procédures. Face au volume croissant de ce manuel, les employés rencontrent des difficultés pour retrouver rapidement l'information nécessaire.
+\quad L'Université du Québec à Chicoutimi (UQAC) regroupe plus de 6500 étudiants répartis dans plus de 200 programmes d'études. Pour assurer sa gestion administrative, l'université dispose d'un manuel de gestion qui regroupe l'ensemble des règlements, politiques et procédures. Face au volume croissant de ce manuel, les employés rencontrent des difficultés pour retrouver rapidement l'information nécessaire.\\
 
 Dans le cadre du cours 8INF974 - Atelier pratique en intelligence artificielle II, notre équipe de trois étudiants a été mandatée pour développer une preuve de concept d'un chatbot. Ce projet s'inscrit dans une démarche d'innovation, exploitant les récentes avancées en traitement du langage naturel (NLP) et en apprentissage automatique (ML).
 
@@ -239,33 +239,143 @@ Finalement, notre script \textit{getURL.py} utilise le sitemap.xml du site pour 
 \subsection{Architecture du RAG}
 \begin{figure}[ht]
     \centering
-    \includegraphics[width=\textwidth]{NotreRAG.png}
+    \includegraphics[width=\textwidth]{NotreRAG2.png}
     \caption{Architecture d’un chatbot basé sur un RAG}
 \end{figure}
 
 \subsection{Choix du Modèle Local}
-
+    \subsubsection{GPT 3.5 et GPT-2}
+    \quad Notre objectif était d'utiliser un modèle fonctionnant en local, ce qui impliquait de choisir des modèles de petite taille. Nous avons d'abord testé GPT-3.5, mais celui-ci présentait une limitation à 500 tokens, ce qui le rendait quasi inutilisable dans le cadre de ce projet. Nous sommes ensuite passés à GPT-2.0, mais celui-ci posait également des problèmes, notamment parce qu'il avait été principalement entraîné en anglais. Or, l'UQAC fournit les fichiers de documentation en français, ce qui entraînait des difficultés de compréhension et de génération.
+    
+    \subsubsection{Mistral}
+    Nous nous sommes alors tournés vers des modèles spécifiquement développés pour le traitement du français ou, au moins, capables de le comprendre. Cependant, ces modèles étaient dépassés en termes de performances, car ils ne faisaient plus partie des modèles \textit{state-of-the-art} (ex : FlauBERT, un dérivé de BERT). Nous avons donc ensuite opté pour Mistral, qui possédait plus de tokens que GPT-3.5 et une meilleure compréhension du français que GPT-2.0 (bien que limitée).
+    
+    \subsubsection{DeepSeek 8B}
+    Avec l'apparition de DeepSeek, nous avons migré vers ce LLM, car il permettait d'obtenir des réponses de meilleure qualité et en français. Cependant, nous avons encore rencontré des problèmes : DeepSeek ignorait parfois les instructions et générait des réponses aléatoires.
+    
+    \subsubsection{Choix Final : LLaMA 3.0}
+    Finalement, après plusieurs tests comparatifs, nous avons choisi LLaMA 3.0 pour les raisons suivantes :
+    \begin{enumerate}
+        \item Il est également utilisé pour effectuer les embeddings (voir l'architecture RAG), donc il n'y a que un seul model qui est chargé sur la RAM.
+        \item Il fournit les réponses les plus pertinentes.
+        \item Il possède un nombre suffisant de tokens (4k) pour permettre un système de mémoire.
+    \end{enumerate}
 
 \subsection{Interface Utilisateur}
+\quad Pour l'Interface Utilisateur, nous avons utilisé Streamlit, car nous codons en Python. Cette solution permet de générer une interface web sans changer de langage, assurant ainsi une cohérence de langage dans le projet.\\
+
+Notre objectif initial était de concevoir une interface visuellement proche des pages de l'UQAC. Cependant, nous avons rencontré plusieurs difficultés, notamment avec le thème par défaut de Streamlit, qui reste sombre à moins que l'utilisateur ne le modifie lui-même, ainsi qu'avec le header de Streamlit, qui masque notre propre en-tête, cachant des informations que nous souhaiton donner a l'utilisateur.\\
+
+Face à ces contraintes, nous avons finalement choisi de conserver une interface Streamlit simple, sans ajout de CSS personnalisé pour que l'utilisateur ne perdes pas d'information et qu'il n'ai "rien a faire" d'autre que de poser des questions au chatbot.\\
+\\
+(image exemple page uqac, notre interface style uqac et interface finale ici)
 
 \clearpage
 
 \section{Résultats}
 \subsection{Performance du Système}
+\quad L'application finale utilise LLaMA 3 (8B paramètres, nécessitant 8GB de RAM) ainsi qu'une base de données Chroma DB (occupant 1GB de RAM). Les autres composants de l'application ont un impact négligeable sur les performances. Ainsi, lors de son exécution, l'application consomme un total d'environ 9GB de RAM.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\textwidth]{perfs.png}
+    \caption{Performances de l'application}
+\end{figure}
 \subsection{Exemples de Conversations}
-\subsection{Captures d'Écran}
-
+faire a la fin ducoup...
 \clearpage
 
 \section{Défis et Apprentissages}
 \subsection{Problèmes Rencontrés}
+
+Au cours de ce projet, nous avons été confrontés à plusieurs défis techniques et conceptuels :
+
+\begin{itemize}
+    \item \textbf{Problèmes de scraping :} La première version du scraping ne récupérait pas les bons fichiers, ce qui a nécessité des ajustements. De plus, notre version finale a entraîné un bannissement temporaire du site de l'UQAC en raison d'un trop grand nombre de requêtes.
+    \item \textbf{Problèmes d'affichage du chatbot :} L'intégration du chatbot dans une interface inspirée du style de l'UQAC a posé des difficultés, notamment avec le thème de Streamlit, qui restait sombre par défaut ainsi que le header de Streamlit, qui masquait notre propre en-tête.
+    \item \textbf{Réponses en anglais du LLM :} Certains modèles de langage répondaient en anglais alors que nous avions besoin de réponses en français.
+    \item \textbf{Gestion des flux de réponse :} Notre approche reposait sur deux flux de sortie : les réponses aux questions et les sources associées. Cependant, cela entraînait un problème d'affichage, l'une des deux réponses n'apparaissant pas toujours correctement.
+    \item \textbf{Coupures dans les réponses :} Certaines réponses étaient tronquées en raison de la limite de tokens imposée par certains modèles de langage.
+    \item \textbf{Gestion de la mémoire :} La limite du nombre de tokens nous empêchait de conserver l'intégralité de la conversation en mémoire.
+    \item \textbf{Besoins en contexte des LLMs :} Certains modèles nécessitaient plus de contexte que d'autres pour fournir des réponses pertinentes, ce qui nous a poussés à ajuster la manière dont nous leur fournissions les données.
+\end{itemize}
+
 \subsection{Solutions Apportées}
+
+\begin{itemize}
+    \item \textbf{Scraping :} 
+    \begin{itemize}
+        \item \textbf{Version 1} : Remplacement du scraping initial par l'utilisation de \texttt{crwl4ai}.
+        \item \textbf{Version 2} : Changement d'adresse IP à chaque bannissement pour contourner les restrictions du site de l'UQAC.
+    \end{itemize}
+    
+    \item \textbf{Interface :} Mise en pause temporaire du développement de l'interface pour prioriser d'autres aspects critiques du projet.
+    
+    \item \textbf{Gestion des réponses en anglais :} 
+    \begin{itemize}
+        \item \textbf{Changement de LLM} : Passage de GPT-3.5 à DeepSeek (qui répond nativement en francais), puis à LLaMA 3 (méthode hybride).
+        \item \textbf{Méthode hybride pour LLaMA 3} :  
+        \begin{enumerate}
+            \item Première requête pour obtenir la réponse avec les sources (générées en anglais).
+            \item Seconde requête pour traduire la réponse en français.
+        \end{enumerate}
+    \end{itemize}
+
+    \item \textbf{Gestion du multi-flux :}  
+    Le code suivant permet de récupérer simultanément la réponse et ses sources :
+    
+    \begin{verbatim}
+    qa_chain = ConversationalRetrievalChain.from_llm(
+        llm=llm,
+        retriever=retriever,
+        memory=memory,
+        return_source_documents=True,
+        output_key="answer"
+    )
+    \end{verbatim}
+
+    Ainsi, la réponse du LLM est récupérée via \texttt{output\_key="answer"} et les sources via \texttt{return\_source\_documents=True}, ce qui permet de traiter les deux flux simultanément.
+
+    \item \textbf{Limite de tokens :}  
+    Passage de GPT-3.5 (capacité de 500 tokens) à DeepSeek (capacité de 8000 tokens), puis à LLaMA 3 (capacité de 4000 tokens). Cette dernière limitation est compensée par une gestion optimisée de la mémoire.
+
+    \item \textbf{Gestion de la mémoire :}  
+    Deux approches ont été testées :
+    \begin{itemize}
+        \item \textbf{Première approche (non retenue)} : Une mémoire à une durée limitée, où le chatbot ne se souvenait que de la dernière question et de la dernière réponse avant la question actuelle.
+        \item \textbf{Deuxième approche (retenue)} : Génération dynamique d’un résumé des échanges précédents, fourni au LLM à chaque nouvelle requête. Cette méthode permet une gestion efficace de l’espace mémoire tout en assurant une continuité des interactions sur toute la durée d'utilisation.
+    \end{itemize}
+
+    \item \textbf{Optimisation du contexte :}  
+    \begin{itemize}
+        \item Passage de 3 à 10 chunks pour élargir le contexte fourni au LLM.
+        \item Remplacement de \textbf{kNN} par \textbf{aNN} :
+        \begin{itemize}
+            \item Le kNN fournit des résultats déterministe qui sont normalement plus précis.
+            \item Le aNN est plus rapide et, combiné avec un plus grand nombre de chunks, garantit une réponse pertinente. Dans l'éventualité où ce n'est pas le cas, il est possible de reposer la question afin d'essayer de trouver de meilleurs chunks, ce qui n'est pas réalisable avec un kNN.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+
 \subsection{Améliorations Possibles}
+\begin{itemize}
+    \item \textbf{Optimisation du scraping :}  
+    Trouver un moyen de limiter la vitesse du scraping afin d'éviter le bannissement du site de l'UQAC, ou automatiser un changement d'IP dès qu'un bannissement est détecté.
+    
+    \item \textbf{Refonte du frontend :}  
+    Abandonner Streamlit pour l'interface utilisateur et développer une page web en utilisant le même langage que celui des sites de l'UQAC. Cela permettrait une séparation plus nette entre le frontend et le backend. Actuellement, avec Streamlit, ces deux parties sont imbriquées dans le même fichier, ce qui "complique" l'architecture du projet pour d'eventuelles évolutions (comme l'implémentation du chatbot sur le site de l'UQAC).
+    
+    \item \textbf{Gestion améliorée de la mémoire et du contexte :}  
+    Utiliser un package combinant Streamlit et LangChain afin d'optimiser la gestion de la mémoire et du contexte de conversation de manière plus efficace qu'actuellement.
+\end{itemize}
+
 
 \clearpage
 
 \section{Conclusion}
 \subsection{Bilan du Projet}
+faire a la fin...
 \subsection{Perspectives}
+passer sur des LLMs plus puissants comme chatGPT qui permet actuellemet de chercher le web et de repondre a nos questions directement.
 
 \end{document}
